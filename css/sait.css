@@ -14,7 +14,6 @@
  
 header .container {
     background-repeat: no-repeat;
-    background-position: 0 0;
     height: 700px;
     width: 1260px;
     padding: 0;
@@ -23,7 +22,6 @@ header .container {
     background-image: url('../img/home-foto.jpg');
     background-position: 100% 0%;
     background-size: cover; 
-    background-repeat: no-repeat;
     opacity: 1;
 }
 
@@ -45,13 +43,11 @@ header .container {
     line-height: 150%;
     transition: all 0,25s;
     border: none;
-    background-color: transparent;
-     
+    background-color: transparent;     
 }
 .add-button:hover {
     color: coral;
 }
-
  .main-menu a {
 
     text-decoration: none;
@@ -61,7 +57,6 @@ header .container {
     line-height: 150%;
     color: #fdfafa;
     transition: all 0,25s;
-
 }
 
 .main-menu a:hover {
@@ -101,16 +96,12 @@ header .container {
      padding-top: 11px;
      padding-right: 20px;
      padding-left: 0px;
-     font-family: Georgia, Times, "Times New Roman", serif;
      font-size: 24px;
      line-height: 35px;
      text-transform: uppercase;
      text-align: center;
 
  }
-
- 
-
 .text-block2 {
     position: relative;
     overflow: auto;
@@ -189,14 +180,11 @@ header .container {
 }
 
 table {
-
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    margin-top: 25px;
-    
+    margin-top: 25px;    
 }
-
 td {
     padding: 10px;
     padding-left: 100px;
